@@ -305,7 +305,7 @@ class RDD(Generic[T_co]):
 
     def persist(self: "RDD[T]", storageLevel: StorageLevel = StorageLevel.MEMORY_ONLY) -> "RDD[T]":
         """
-        Set this RDD's storage level to persist its values across operations
+        Set 111 this RDD's storage level to persist its values across operations
         after the first time it is computed. This can only be used to assign
         a new storage level if the RDD does not have a storage level set yet.
         If no storage level is specified defaults to (`MEMORY_ONLY`).
